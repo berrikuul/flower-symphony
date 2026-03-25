@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { useEffect, useRef, useState } from "react"
+import logo from "../assets/logo2.jpg"
 
 function Navbar(){
 
@@ -25,7 +26,7 @@ return(
 <nav className="navbar">
 
 <div className="logo">
-<img src="/img/logo2.jpg" alt="Цветочная симфония"/>
+<img src={logo} alt="Цветочная симфония"/>
 </div>
 
 
